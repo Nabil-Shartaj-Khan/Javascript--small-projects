@@ -1,6 +1,7 @@
 # Javascript--small-projects
 
 Bunch of small projects to demonstrate my javascript skills.
+
 Used languages- 
 1.HTML(Vanilla)
 2.JavaScript(Vanilla)
