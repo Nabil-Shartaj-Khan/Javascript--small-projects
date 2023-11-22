@@ -12,8 +12,11 @@ function updateClock(){
         timeOfDay = "🌜Good night🌛";
     } else if (hours >= 6 && hours < 12) {
         timeOfDay = "🌞Good morning😎";
-    } else if (hours >= 12 && hours < 18) {
+    } else if (hours >= 12 && hours < 15) {
         timeOfDay = "🌞Good noon😎";
+    }
+    else if (hours >= 15 && hours < 16) {
+        timeOfDay = "🌞Good After-noon😎";
     } else {
         timeOfDay = "🌘Good evening🌘";
     }

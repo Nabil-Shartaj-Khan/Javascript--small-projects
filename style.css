@@ -50,6 +50,11 @@ body{
     margin-top: 20px;
     font-size: 25px;
     font-weight: bold;
+    color: cyan;
+    background-color: black;
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 10px;
 }
 @keyframes marqueeText {
     0% { transform: translateX(100%); }
