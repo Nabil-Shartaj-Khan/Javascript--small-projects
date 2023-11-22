@@ -23,9 +23,9 @@ body{
 
 }
 #outer-clock{
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: grey;
-    padding: 50px 50px 50px 50px;
+    padding: 80px 100px 100px 100px;
     width: 220px;
     border: 1px solid grey;
     border-radius: 25px;
@@ -44,7 +44,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
     white-space: nowrap;
-    animation: marqueeText 10s linear infinite;
+    animation: marqueeText 5s linear infinite;
 }
 #date-show{
     margin-top: 20px;
