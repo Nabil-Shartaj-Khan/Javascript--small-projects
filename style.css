@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 30vh;
+
 }
 #time-show{
     font-family: monospace;
@@ -39,12 +40,13 @@ body{
 #message-show{
     padding: 5px;
     font-weight: bold;
-    color: white;
+    color: cyan;
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 15px;
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: marqueeText 5s linear infinite;
+    animation: marqueeText 10s linear infinite;
 }
 #date-show{
     margin-top: 20px;
@@ -60,3 +62,4 @@ body{
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
   }
+
