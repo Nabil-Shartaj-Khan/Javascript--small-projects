@@ -9,3 +9,4 @@ Used languages-
 
 Added projects till now-
 1. Digital clock showing date. 
+2. BMI calculator.
