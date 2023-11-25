@@ -11,23 +11,27 @@ function calculate(){
     if (selectedOperation === "add") {
         resultValue = firstDigit + secondDigit;
       } else if (selectedOperation === "subtraction") {
-        resultValue = firstDigit - secondDigit;
+        resultValue = Math.round(firstDigit - secondDigit);
       }
       else if (selectedOperation==="multiply"){
-        resultValue=firstDigit*secondDigit
+        resultValue=Math.round(firstDigit*secondDigit)
       }
       else if (selectedOperation==="division"){
-        resultValue=firstDigit/secondDigit
+        resultValue=(firstDigit/secondDigit).toFixed(2);
       }
       else if (selectedOperation==="root"){
-        resultValue=Math.pow(firstDigit, 1 / secondDigit)
+        resultValue=Math.pow(firstDigit, 1 / secondDigit).toFixed(2)
       }
       else if (selectedOperation==="exponent"){
-        resultValue=Math.pow(firstDigit,secondDigit)
+        resultValue=Math.pow(firstDigit,secondDigit).toFixed(2);
       }
       else if (selectedOperation==="percentage"){
-        resultValue=(firstDigit/secondDigit)*100
+        resultValue=((firstDigit/secondDigit)*100).toFixed(2)
       }
+      else if (selectedOperation==="area"){
+        resultValue=((1/2)*(firstDigit*secondDigit)).toFixed(2)
+      }
+      
 
       resultElement.textContent=resultValue;
 
