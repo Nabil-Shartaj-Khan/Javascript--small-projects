@@ -36,10 +36,10 @@ function calculateBmi(){
 
 else if (bmi >= 24.9 && bmi < 29.9) {
         bmiCategory="you are overweight"
-        adviceShow = '';
+        adviceShow = 'Means you are a bit over the perfect weight. <a href="https://www.healthline.com/nutrition/how-to-lose-weight-as-fast-as-possible#6-weight-loss-steps." target="_blank">Find out how to lose it</a>';
     } else {
         bmiCategory="You are an obese"
-        adviceShow = '';
+        adviceShow = 'Means you are severely overweight. <a href="https://www.healthline.com/nutrition/how-to-lose-weight-as-fast-as-possible#6-weight-loss-steps." target="_blank">Find out how to lose it</a>';
     }
 
     // Display BMI category
