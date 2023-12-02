@@ -11,3 +11,5 @@ Added projects till now-
 1. Digital clock showing date. 
 2. BMI calculator.
 3. Multi-functional calculator
+
+Use Landing.html to navigate through the projects
